@@ -1,10 +1,6 @@
-import time
+def say_hello():
+    name = input("What's your name: ")
+    print(f"Hello, {name}")
 
-start = time.time()
-
-print("Hello World!")
-
-end = time.time()
- 
-print("The time of execution of above program is :",
-      (end-start) * 10**3, "ms")
+if __name__ == "__main__":
+    say_hello()
